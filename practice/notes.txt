@@ -1,0 +1,10 @@
+comment in html - <!--  ..............     -->
+comment in css - /* ......................   */
+
+google fonts / font squirrel
+font-family:arial, give backups, etc;
+web safe fonts
+
+rgba(255,255,0,0.2) 0.2 here is opacity
+contrast-ratio.com
+colors.adobe.com
