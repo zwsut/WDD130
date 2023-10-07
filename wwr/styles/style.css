@@ -2,17 +2,20 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
 body {
     background-color: #ECB4F9;
 }
+
 header {
     background-color: aquamarine;
 }
+
 .navbar {
-    text-align: center;
     background-color: black;
 }
 .navbar a {
+    text-align: center;
     color: #E34FCB;
     text-decoration: none;
 }
@@ -20,6 +23,7 @@ header {
     background-color: #5CFFDE;
     color: black;
 }
+
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
