@@ -248,6 +248,9 @@ main section img {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-start: 2;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .salmon-river p {
     grid-row-start: 2;
@@ -255,6 +258,22 @@ main section img {
     grid-column-start: 2;
     grid-column-start: 3;
     text-align: left;
+}
+.salmon-river, .grand-canyon, .gray-canyon p {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .gray-canyon {
@@ -270,6 +289,9 @@ main section img {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-start: 3;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .gray-canyon p {
     grid-row-start: 2;
@@ -292,6 +314,9 @@ main section img {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-start: 2;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .grand-canyon p {
     grid-row-start: 2;
