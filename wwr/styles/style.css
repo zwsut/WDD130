@@ -234,6 +234,74 @@ main section img {
     padding: 35px;
 }
 
+/*--------------Subpage--------------------------*/
+.salmon-river {
+    display: grid;
+    height: fit-content;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px auto;
+    padding-bottom: 100px;
+}
+.salmon-river img {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-start: 2;
+}
+.salmon-river p {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-start: 3;
+    text-align: left;
+}
+
+.gray-canyon {
+    display: grid;
+    height: fit-content;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 80px auto;
+    padding-bottom: 100px;
+}
+.gray-canyon img {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-start: 3;
+}
+.gray-canyon p {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-start: 2;
+    text-align: right;
+}
+
+.grand-canyon {
+    display: grid;
+    height: fit-content;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px auto;
+    padding-bottom: 100px;
+}
+.grand-canyon img {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-start: 2;
+}
+.grand-canyon p {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-start: 3;
+    text-align: left;
+}
+
+
 @media screen and (max-width: 1250px) {
     #hero, .home-grid {
         display: block;
