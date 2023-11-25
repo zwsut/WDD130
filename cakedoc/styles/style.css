@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Handlee&family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: #CCC9A1;
+    font-family: "Open Sans", Helvetica, sans-serif ;
+}
+body h1 {
+    font-family: "Handlee", "Cedarville Cursive", Helvetica;;
+}
+
+/* Main Page */
+#topbanner {
+    margin-top: 20px;
+    display:flex;
+    border: 2px solid #4C230A;
+}
+#topbanner img {
+    flex: 1;
+}
+#mainheadline {
+    text-align: center;
+    font-size: 60px;
+}
+#bottombanner {
+    background-color: #F0FFCE;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #4C230A;
+    text-align: center;
+}
+#bottombanner img {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* Navbar */
+.topnav {
+    background-color: #F0FFCE;
+    padding: 10px;
+    overflow: hidden;
+    color: #4C230A;
+}
+.logo {
+    max-height: 150px;
+    float: left;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: #4C230A;
+    text-decoration: none;
+    background: #F0FFCE;
+    padding: 10px;
+    margin-top: 50px;
+    border: 1px solid #4C230A;
+    border-radius: 3px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+nav a:hover {
+    color: #4C230A;
+    border-radius: 50px;
+    border-color: #4C230A;
+    transition: all 0.3s ease 0s;
+}
+/* Footer */
+footer {
+    background-color: #F0FFCE;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #4C230A;
+    text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
