@@ -272,8 +272,7 @@ footer p a:hover {
     margin-bottom: 125px;
     background-color: transparent;
     width: 300px;
-    height: 300px;
-    border: 1px solid #f1f1f1;
+    height: 400px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -299,17 +298,22 @@ footer p a:hover {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    margin-top: 50px;
   }
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    border-radius: 30px;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: #F0FFCE;
+    color: #4C230A;
     transform: rotateY(180deg);
+    border: 1px solid #4C230A;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
   }
